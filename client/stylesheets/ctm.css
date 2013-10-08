@@ -1,0 +1,240 @@
+body {
+	padding-top:56px;
+	padding-bottom:0px;
+	font-family: Arial;
+}
+
+.greendotted{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 15px;
+	background-image: url(../img/greendot.png); 
+	background-repeat: repeat-x;
+}
+
+
+.container{max-width:960px;}
+.dev {border: 1px #FF3333 dotted;}
+.serviceblock {
+	-border: 1px #AA3333 dotted; 
+	text-align:center;
+	padding-top: 8px;
+	padding-right: 5px;
+	padding-left: 5px;
+	min-height:123px;
+}
+.pic4serviceblock{
+	min-height: 79px;
+	min-width: 160px;
+}
+div.row- {border: 1px solid; }
+
+.nav_mini_logo {
+	height: 50px;
+	width: 100px;
+	/*border:dashed thin #0F3;
+	*/
+	background-image: url(../img/CTM_Menu_logo.png); 
+	background-repeat: no-repeat;
+    background-position:center ;
+}
+.abut{
+	display: block;
+	height: 50px;
+}
+
+div.center {text-align:center;}
+
+.CTM_mid_logo
+{	height: 191px;
+	width: 290px;
+/*	border:dashed thin #0F3;
+*/	background-image: url(../img/CTM_mid_logo_2.png); 
+	background-repeat: no-repeat;
+    background-position:center ;
+    z-index:-1;
+	margin: 0px 0px 0px 0px ;
+	position: absolute;
+	left:0px;
+	top: 10px;
+	 
+}
+.maintextlst
+		{	margin: 0px 0px 0px 0px ;
+			position:relative;
+			left:0px;
+			top: -1px;
+			font-size: 0.9em;
+			line-height: 1.16;
+		}
+
+@media (max-width: 768px) {
+.maintextlst
+		{	left:0px;
+			font-size: 0.9em;
+		}
+
+}
+
+@media (min-width:  769px) {
+.maintextlst
+		{	left:291px;
+		}
+}
+
+
+.CTM_mid_logo_placer
+{	height: 155px;
+	width: 237px;
+	border:dashed thin #0F3;
+	background-repeat: no-repeat;
+    background-position:center ;
+    -z-index:-1;
+	margin: 0px 0px 0px 0px ;
+	position: relative;
+	left:0px;
+	top: 0px;
+	 
+}
+
+ 
+.midlogo_underlayer
+{ height:125px;}
+
+.CTM_great_logo
+{	height: 222px;
+	width: 338px;
+	border:dashed thin #0F3;
+	background-image: url(../img/CTM_great_logo.png); 
+	background-repeat: no-repeat;
+    background-position:center ;
+	margin: 20px 20px 20px 20px ;
+	 
+}
+
+@font-face {
+  font-family: AvantGardeC;
+  src: url('../fonts/AvantgardeC.otf');
+  src: url('../fonts/AvantgardeC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* use */
+.avantGC {
+    font-family:AvantGardeC, Arial, sans-serif !important;
+}
+
+.headcont{ position: relative;}
+.SSTMlabel {
+	position: relative;
+	top: -8px;
+	color: #255F3E;
+	text-align: center;
+	font-family: AvantGardeC, sans-serif !important;
+	padding: 0px  0px  0px  0px ;
+}
+
+.underlabel {
+	position: relative;
+	top: -12px;
+	-left: 100px;
+	color: #255F3E;
+	text-align: center;
+	font-weight: bold;
+	font-size: .95em;
+}
+
+.ulbsecond{padding-top: 20px;}
+@media (max-width:  940px) {
+.underlabel
+		{left:190px;
+		text-align: left;
+		}
+}
+
+@media (max-width:  767px) {
+.underlabel
+		{left:0;
+		text-align: center;
+		}
+}
+
+.ourservices{font-size: 0.95em;}
+footer{font-size: 0.95em; }
+
+.mybutton {
+	margin:5px 0px 0px 0px;
+	min-width: 178px;
+	min-height: 40px;
+	vertical-align: middle;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: 1.3em 1em 1.3em 1em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .2em; 
+	-moz-border-radius: .2em;
+	border-radius: .2em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,152,70,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+   	font-size: .90em;
+
+}
+.mybutton:hover {
+	text-decoration: none;
+}
+.mybutton:active {
+	position: relative;
+	top: 1px;
+}
+
+.green {
+	color: #fef4e9;
+	border: solid 1px #236B3F;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#009846), to(#175F3E));
+	background: -moz-linear-gradient(top,  ##009846,  #175F3E);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#009846', endColorstr='#175F3E');
+}
+
+.green:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.green:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+/* переопределения бутстрапа
+*/
+/*
+.brand {
+  margin-left: 0px;
+  font-size: 18px;
+  font-weight: 200;
+  color:#333;
+  text-shadow: 0 1px 0 #ffffff;
+}
+  
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #555555;
+  text-decoration: none;
+  background-color: #e5e5e5;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+*/
+
