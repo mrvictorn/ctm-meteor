@@ -4,11 +4,12 @@ body {
 	font-family: Arial;
 }
 
+footer{ margin-top: 10px;}
 .greendotted{
 	margin-top: 10px;
 	margin-bottom: 5px;
 	height: 15px;
-	background-image: url(../img/greendot.png); 
+	background-image: url(/img/greendot.png); 
 	background-repeat: repeat-x;
 }
 
@@ -34,7 +35,7 @@ div.row- {border: 1px solid; }
 	width: 100px;
 	/*border:dashed thin #0F3;
 	*/
-	background-image: url(../img/CTM_Menu_logo.png); 
+	background-image: url(/img/CTM_Menu_logo.png); 
 	background-repeat: no-repeat;
     background-position:center ;
 }
@@ -49,7 +50,7 @@ div.center {text-align:center;}
 {	height: 191px;
 	width: 290px;
 /*	border:dashed thin #0F3;
-*/	background-image: url(../img/CTM_mid_logo_2.png); 
+*/	background-image: url(/img/CTM_mid_logo_2.png); 
 	background-repeat: no-repeat;
     background-position:center ;
     z-index:-1;
@@ -105,7 +106,7 @@ div.center {text-align:center;}
 {	height: 222px;
 	width: 338px;
 	border:dashed thin #0F3;
-	background-image: url(../img/CTM_great_logo.png); 
+	background-image: url(/img/CTM_great_logo.png); 
 	background-repeat: no-repeat;
     background-position:center ;
 	margin: 20px 20px 20px 20px ;
@@ -114,8 +115,8 @@ div.center {text-align:center;}
 
 @font-face {
   font-family: AvantGardeC;
-  src: url('../fonts/AvantgardeC.otf');
-  src: url('../fonts/AvantgardeC.ttf') format('truetype');
+  src: url('/fonts/AvantgardeC.otf');
+  src: url('/fonts/AvantgardeC.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

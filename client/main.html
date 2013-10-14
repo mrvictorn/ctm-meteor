@@ -1,0 +1,35 @@
+<head>
+  <title>CTM: Сервіс ТМ</title>
+  <meta name="description" content="creative trade mark service">
+  <meta name="author" content="ctm">
+  <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+</body>
+
+
+
+<template name="items">
+  <h1>Items List</h1>
+
+  <ul>
+    {{#each items}}
+      <li>{{body}}</li>
+    {{/each}}
+  </ul>
+</template>
+
+<template name="itemsAside">
+  <h3>Items Aside</h3>
+</template>
+
+<template name="itemsFooter">
+  <h3>Items Footer</h3>
+</template>
+
+<template name="loading">
+  <div class="center">Loading CTM Service ...</div>
+</template>
+
+
+
