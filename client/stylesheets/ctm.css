@@ -21,7 +21,6 @@ border-top: 1px solid #dddddd;
 .container{max-width:960px;}
 .dev {border: 1px #FF3333 dotted;}
 .serviceblock {
-	-border: 1px #AA3333 dotted;
 	vertical-align: middle; 
 	text-align:center;
 	padding-top: 8px;

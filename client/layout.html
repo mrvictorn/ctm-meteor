@@ -1,0 +1,50 @@
+<template name="layout">
+<nav class="navbar navbar-default navbar-fixed-top " role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+      
+    <div class="nav_mini_logo">
+       <a class="abut" href="/"></a>
+    </div>
+</div>
+   <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      {{> mainMenu}}
+      <li class="menu-orderLogo"><a href="#orderLogo">Замовити логотип</a></li>
+      <li class="menu-registerCompany"><a href="#registerCompany">Реєстрація ТОВ</a></li>
+      <li class="menu-orderDomain"><a href="#orderDomain">Домен.UA</a></li>
+      <li class="menu-orderSearch"><a href="#orderSearch">Попередній пошук</a></li>
+    </ul>
+    <ul class="nav navbar-nav pull-right">
+      {{> user_info}}
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+<div class="container">
+
+  
+  <aside>
+    {{yield "aside"}}
+  </aside>
+
+  <section class="main">
+    {{yield}}
+  </section>
+</div>
+
+  <footer>
+    {{> footer}}
+  </footer>
+
+    {{#unless currentUser}}
+      {{> loginDialog}}
+    {{/unless}}
+  
+</template>
